@@ -1,0 +1,41 @@
+{
+  "name": "architect-moment",
+  "description": "Architect.js plugin to expose the moment library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Todd Bashor",
+    "email": "todd@thestartersacademy.com"
+  },
+  "license": "MIT",
+  "main": "./plugin.js",
+  "keywords": [
+    "moment",
+    "date",
+    "time",
+    "parse",
+    "format",
+    "validate",
+    "i18n",
+    "l10n",
+    "architect",
+    "plugin"
+  ],
+  "plugin": {
+    "consumes": [
+      "debug"
+    ],
+    "provides": [
+      "moment",
+      "timezone"
+    ]
+  },
+  "dependencies": {
+    "moment": "2.12.0",
+    "moment-timezone": "0.5.2"
+  },
+  "readme": "Architect.js plugin to expose the moment library.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbashor/architect-moment.git"
+  }
+}
